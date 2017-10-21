@@ -2116,6 +2116,7 @@
 		<property name="NightWanderSpeed" value="0.8" />
 		<property name="NightApproachSpeed" value="1.1" />
 		<property name="HasRagdoll" value="false" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="zombieMechanic" extends="SDXTemplate">
 		<property name="Mesh" value="#Mechanic?Model" />
