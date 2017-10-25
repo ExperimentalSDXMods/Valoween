@@ -15027,4 +15027,140 @@
 			<property name="BlockDamage" value="0" />
 		</property>
 	</item>
+	
+	<item id="3011" name="BossHand">
+			<property name="Extends" value="handMaster" />
+		<property name="CreativeMode" value="None" />
+		<property name="Degradation" value="99999" param1="true" />
+		<property class="Action0">
+			<property name="Range" value="1.75" />
+			<property name="DamageEntity" value="50" />
+			<property name="DamageBlock" value="250" />
+			<property name="Buff" value="bleeding,infection,stunned" />
+			<property name="Buff_chance" value="0.2,0.2,0.4" />
+		</property>
+		<property class="Action1">
+			<property name="Class" value="Vomit" />
+			<property name="Delay" value="0.35" />
+			<property name="Range" value="200" />
+			<property name="Auto_fire" value="true" />
+			<property name="Infinite_ammo" value="true" />
+			<property name="Magazine_items" value="flamethrowerAmmo" />
+			<property name="Rays_spread" value="0.5" />
+			<property name="Reload_time" value="2" />
+			<property name="Bullet_icon" value="uzi" />
+				<property name="Sound_start" value="torch_swoosh" />
+			<property name="Sound_repeat" value="torch_swoosh" />
+			<property name="Sound_end" value="torch_swoosh" />
+		
+			<property name="Sound_empty" value="" />
+			<property name="Sound_reload" value="" />
+			<property name="Buff" value="infection" />
+			<property name="Buff_chance" value="0.2" />
+					<property name="Particles_muzzle_fire" value="nozzleflashuzi" />
+			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
+		</property>
+	</item>
+	<item id="2" name="flamethrower">
+		<property name="CustomIcon" value="gunMP5" />
+		<property name="Meshfile" value="Items/Weapons/Ranged/MP5/MP5Prefab" />
+		<property name="Material" value="metal" />
+		<property name="RepairTools" value="repairKit" />
+		<property name="EconomicValue" value="460" />
+		<property name="HoldType" value="6" />
+		<property name="Stacknumber" value="1" />
+		<property name="DegradationBreaksAfter" value="false" />
+		<property name="SoundJammed" value="Weapons/weapon_jam" />
+		<property name="Weight" value="33" />
+		<property name="CrosshairOnAim" value="false" />
+		<!-- aimTest -->
+		<property name="CrosshairUpAfterShot" value="true" />
+		<!-- aimTest -->
+		<property class="Parts">
+			<property name="Stock" value="partsMP5_stock" />
+			<property name="Receiver" value="partsMP5_receiver" />
+			<property name="Pump" value="partsMP5_parts" />
+			<property name="Barrel" value="partsMP5_barrel" />
+		</property>
+		<property class="Action0">
+			<!-- AttackAction -->
+			<property name="Class" value="Launcher" />
+			<property name="SupportHarvesting" value="true" />
+			<property name="Delay" value="0.10" />
+			<property name="Auto_fire" value="true" />
+			<property name="Crosshair_min_distance" value="5" />
+			<property name="Crosshair_max_distance" value="30" />
+			<property name="Magazine_size" value="200" />
+			<property name="Magazine_items" value="flamethrowerAmmo" />
+			<property name="Magazine_item_ray_counts" value="10" />
+			<property name="Magazine_item_ray_spreads" value="1" />
+			<property name="Reload_time" value="4.1" />
+			<property name="Bullet_icon" value="uzi" />
+			<property name="Sound_start" value="torch_swoosh" />
+			<property name="Sound_repeat" value="torch_swoosh" />
+			<property name="Sound_end" value="torch_swoosh" />
+			<property name="Sound_empty" value="chainsaw_empty" />
+			<property name="Sound_reload" value="chainsaw_reload" />
+			<property name="Horde_meter_rate" value=".275" />
+			<property name="Horde_meter_distance" value="20" />
+			<property name="Particles_muzzle_fire" value="nozzleflashuzi" />
+			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
+		</property>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Zoom" />
+			<property name="Zoom_max_out" value="35" />
+			<property name="Zoom_max_in" value="35" />
+		</property>
+		<property name="Group" value="Ammo/Weapons" />
+		<property name="ActionSkillGroup" value="Construction Tools" />
+		<property name="CraftingSkillGroup" value="Tool Smithing" />
+	</item>
+	<item id="3" name="flamethrowerAmmo">
+		<property name="CustomIcon" value="gasCan" />
+		<property name="Meshfile" value="ParticleEffects/p_onFire" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="HoldType" value="45" />
+		<property name="Material" value="metal" />
+		<property name="Stacknumber" value="500" />
+		<!-- Ammo resource -->
+		<property name="FuelValue" value="2" />
+		<property name="EconomicValue" value="7" />
+		<!-- gas can 83 -->
+		<property name="EconomicBundleSize" value="100" />
+		<property class="Action1">
+			<property name="Class" value="Projectile" />
+			<property name="ActionExp" value="1" />
+			<property name="ActionExpBonusMultiplier" value="1" />
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="2" />
+			<property name="Explosion.ParticleIndex" value="10" />
+			<property name="Explosion.RadiusBlocks" value="3" />
+			<property name="Explosion.RadiusEntities" value="4" />
+			<property name="Explosion.DamageBonus.stone" value="0.1" />
+			<property name="Explosion.DamageBonus.metal" value="0" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.DamageBonus.wood" value="6" />
+			<property name="Explosion.DamageBonus.cloth" value="6" />
+			<property name="Explosion.DamageBonus.plants" value="6" />
+			<property name="Explosion.DamageBonus.glass" value="6" />
+			<property name="Explosion.DamageBonus.snow" value="6" />
+			<property name="Explosion.BlastPower" value="70" />
+			<property name="FuseTime" value="20000" />
+			<property name="Explosion.Buff" value="burningMolotov" />
+			<property name="Explosion.Buff_chance" value="1" />
+			<property name="ExplodeOnHit" value="true" />
+			<property name="Velocity" value="20" />
+			<property name="FlyTime" value="0.50" />
+			<property name="LifeTime" value="4" />
+			<property name="CollisionRadius" value="0.5" />
+		</property>
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="ApplyBuff" value="1, 1" param1="burningMolotov" />
+		</property>
+		<property name="CraftingSkillGroup" value="Science" />
+		<property name="Group" value="Resources,Chemicals" />
+	</item>
 </items>

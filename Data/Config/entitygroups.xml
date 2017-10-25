@@ -17,6 +17,7 @@
 		<entity name="zombieStripper" prob="0.3" />
 		<entity name="zombieUtilityWorker" prob="0.3" />
 		<entity name="zombieNurse" prob="0.3" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatHawaiian" prob="0.3" />
 		<entity name="Bloated Walker" prob="0.07" />
 		<entity name="Scorched Rusher" prob="0.03" />
@@ -35,6 +36,7 @@
 		<entity name="Vendigo" />
 		<entity name="ZombieMutant" />
 		<entity name="Dino" />
+		<entity name="Shaman" />
 	</entitygroup>
 	<entitygroup name="ZombiesNight">
 		<entity name="zombieSpider" />
@@ -49,9 +51,11 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
 		<entity name="animalZombieDog" prob="0.05" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatHawaiian" prob="0.3" />
 		<entity name="Feral Ravager" prob="0.02" />
 		<entity name="Bloated Walker" prob="0.06" />
+		<entity name="Shaman" />
 	</entitygroup>
 	<entitygroup name="ZombiesBurning">
 		<entity name="zombieBurnt" />
@@ -61,6 +65,7 @@
 		<entity name="animalZombieDog" prob="0.05" />
 		<entity name="Burnt Crawler" />
 		<entity name="Burnt Spider" />
+		<entity name="Shaman" />
 	</entitygroup>
 	<entitygroup name="ZombiesUnique">
 		<entity name="Scorched Rusher" />
@@ -82,11 +87,13 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
 		<entity name="animalZombieDog" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatCop" />
 		<entity name="zombieBurnt" />
 		<entity name="zombieMaleHazmat" prob="0.05" />
 		<entity name="zombieMaleHazmat" prob="0.05" />
 		<entity name="zombieFatHawaiian" />
+		<entity name="Shaman" />
 	</entitygroup>
 	<entitygroup name="ZombiesWastelandHub">
 		<entity name="zombieSpider" />
@@ -102,6 +109,7 @@
 		<entity name="zombieNurse" />
 		<entity name="animalZombieVulture" />
 		<entity name="animalZombieDog" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieMaleHazmat" prob="0.05" />
 		<entity name="zombieFatHawaiian" />
 	</entitygroup>
@@ -118,6 +126,7 @@
 		<entity name="zombieMarleneFeral" />
 		<entity name="zombieNurseFeral" />
 		<entity name="animalZombieDog" />
+		<entity name="zombieSteveCrawlerFeral" />
 		<entity name="zombieFatCopFeral" />
 		<entity name="zombieBurnt" />
 		<entity name="animalZombieBear" />
@@ -138,6 +147,7 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
 		<entity name="animalZombieDog" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatCop" />
 		<entity name="zombieBurnt" />
 		<entity name="zombieWightFeral" />
@@ -157,6 +167,7 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
 		<entity name="animalZombieDog" prob="0.15" />
+		<entity name="zombieSteveCrawler" prob="0.05" />
 		<entity name="zombieFatCop" prob="0.15" />
 		<entity name="zombieBurnt" prob="0.07" />
 		<entity name="animalZombieBear" prob="0.1" />
@@ -175,6 +186,7 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
 		<entity name="animalZombieDog" prob="0.15" />
+		<entity name="zombieSteveCrawler" prob="0.05" />
 		<entity name="zombieFatCop" prob="0.15" />
 		<entity name="zombieBurnt" prob="0.07" />
 		<entity name="zombieWightFeral" prob="0.1" />
@@ -192,6 +204,7 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurse" />
 		<entity name="animalZombieDog" prob="0.15" />
+		<entity name="zombieSteveCrawler" prob="0.05" />
 		<entity name="zombieFatCop" prob="0.15" />
 		<entity name="zombieBurnt" prob="0.07" />
 		<entity name="zombieWightFeral" prob="0.1" />
@@ -215,12 +228,13 @@
 		<entity name="zombieFatCop" prob="0.05" />
 		<entity name="animalZombieDog" prob="0.05" />
 		<entity name="animalZombieBear" prob="0.05" />
+		<entity name="zombieSteveCrawler" prob="0.1" />
 	</entitygroup>
 	<entitygroup name="ZombieScouts">
 		<entity name="zombieScreamer" />
 	</entitygroup>
 	<entitygroup name="ZombiesCrawlers">
-		<entity name="zombieNurse" />
+		<entity name="zombieSteveCrawler" prob="1" />
 	</entitygroup>
 	<entitygroup name="ZombiesBurntForest">
 		<entity name="zombieBurnt" prob="0.8" />
@@ -245,13 +259,16 @@
 		<entity name="zombieMarleneFeral" />
 		<entity name="zombieYoFeral" />
 		<entity name="zombieSteveFeral" />
+		<entity name="zombieSteveCrawlerFeral" />
 		<entity name="zombieSnowFeral" />
 		<entity name="zombieSpiderFeral" />
 		<entity name="zombieNurseFeral" />
 		<entity name="ZombieBrute" prob="0.3" />
+		<entity name="ShamanBoss" prob="0.001" />
 	</entitygroup>
 	<entitygroup name="ZombiesCave">
 		<entity name="animalBear" prob="0.1" />
+		<entity name="zombieSteveCrawler" prob="0.05" />
 		<entity name="zombieJoe" prob="0.05" />
 		<entity name="zombieSteve" prob="0.05" />
 		<entity name="zombieMoe" prob="0.05" />
@@ -382,6 +399,8 @@
 		<entity name="zombieSnowFeral" />
 		<entity name="zombieSoldierFeral" />
 		<entity name="zombieSpiderFeral" />
+		<entity name="zombieSteveCrawler" />
+		<entity name="zombieSteveCrawlerFeral" />
 		<entity name="zombieSteveFeral" />
 		<entity name="zombieUtilityWorkerFeral" />
 		<entity name="zombieWightFeral" />
@@ -418,6 +437,7 @@
 		<entity name="zombieMarlene" prob="0.01" />
 		<entity name="zombieNurse" prob="0.01" />
 		<entity name="animalZombieDog" prob="0.01" />
+		<entity name="zombieSteveCrawler" prob="0.01" />
 		<entity name="zombieWightFeral" prob="0.01" />
 	</entitygroup>
 	<entitygroup name="ZombieFootballStadiumGroup">
@@ -439,6 +459,7 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieArlene" />
 		<entity name="zombieJoe" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFemaleFat" />
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieBoe" />
@@ -491,6 +512,7 @@
 	<entitygroup name="BruteBoss">
 		<entity name="zombieBoe" prob="0.9" />
 		<entity name="ZombieBrute" prob="0.1" />
+		<entity name="ShamanBoss" prob="0.001" />
 	</entitygroup>
 	<entitygroup name="RoamingBossGroup">
 		<entity name="ZombieBrute" prob="0.7" />
@@ -507,6 +529,7 @@
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFemaleFat" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS2">
@@ -536,12 +559,14 @@
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieSteve" />
 		<entity name="zombieYo" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieDarlene" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS8">
 		<entity name="zombieMoe" />
 		<entity name="zombieYo" />
 		<entity name="zombieNurse" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieBoe" />
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
@@ -580,9 +605,11 @@
 		<entity name="zombieJoe" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieDarlene" />
+		<entity name="zombieSteveCrawler" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS18">
 		<entity name="zombieYo" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
@@ -615,6 +642,7 @@
 		<entity name="zombieSteve" />
 		<entity name="zombieFemaleFat" />
 		<entity name="zombieDarlene" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieYo" />
 		<entity name="zombieCheerleader" />
@@ -624,6 +652,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS31">
 		<entity name="zombieArlene" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieMoe" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieDarlene" />
@@ -641,6 +670,7 @@
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieFemaleFat" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieBusinessMan" />
 		<entity name="zombieSteve" />
 		<entity name="zombieArlene" />
@@ -649,6 +679,7 @@
 		<entity name="zombieMoe" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS41">
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieMoe" />
 		<entity name="zombieYo" />
 		<entity name="zombieBoe" />
@@ -666,6 +697,7 @@
 		<entity name="zombieBusinessMan" />
 		<entity name="zombieMoe" />
 		<entity name="zombieFemaleFat" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieYo" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieArlene" />
@@ -691,6 +723,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS58">
 		<entity name="zombieMoe" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieBoe" />
 		<entity name="zombieYo" />
 		<entity name="zombieFemaleFat" />
@@ -715,6 +748,7 @@
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieArlene" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieBoe" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS70">
@@ -726,6 +760,7 @@
 		<entity name="zombieBoe" />
 		<entity name="zombieBusinessMan" />
 		<entity name="zombieJoe" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieSkateboarder" />
 	</entitygroup>
@@ -756,6 +791,7 @@
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
 		<entity name="zombieFemaleFat" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieBusinessMan" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS89">
@@ -796,6 +832,7 @@
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieSteve" />
 		<entity name="zombieJoe" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieCheerleader" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS110">
@@ -807,6 +844,7 @@
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieBoe" />
 		<entity name="zombieDarlene" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
@@ -817,6 +855,7 @@
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
 		<entity name="zombieArlene" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieJoe" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieNurse" />
@@ -839,6 +878,7 @@
 		<entity name="zombieArlene" />
 		<entity name="zombieBusinessMan" />
 		<entity name="zombieSpider" prob="0.035" />
+		<entity name="zombieSteveCrawler" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS132">
 		<entity name="zombieFemaleFat" />
@@ -850,11 +890,13 @@
 		<entity name="zombieDarlene" />
 		<entity name="zombieBoe" />
 		<entity name="zombieYo" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieJoe" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieMoe" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS140">
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieJoe" />
 		<entity name="zombieFemaleFat" />
@@ -872,6 +914,7 @@
 		<entity name="zombieSteve" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieDarlene" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieMoe" />
 		<entity name="zombieFemaleFat" />
 		<entity name="zombieCheerleader" />
@@ -888,6 +931,7 @@
 		<entity name="zombieYo" />
 		<entity name="zombieJoe" />
 		<entity name="zombieCheerleader" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieBoe" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS164">
@@ -897,6 +941,7 @@
 		<entity name="zombieCheerleader" />
 		<entity name="zombieSpider" prob="0.046" />
 		<entity name="zombieFatHawaiian" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
@@ -930,6 +975,7 @@
 		<entity name="zombieYo" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieDarlene" />
+		<entity name="zombieSteveCrawler" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS189">
 		<entity name="zombieArlene" />
@@ -937,6 +983,7 @@
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieFemaleFat" />
 		<entity name="zombieJoe" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieMoe" />
 		<entity name="zombieArleneFeral" prob="0.053" />
 		<entity name="zombieDarlene" />
@@ -950,6 +997,7 @@
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieArlene" />
 		<entity name="zombieArleneFeral" prob="0.056" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieDarlene" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieSteve" />
@@ -973,6 +1021,7 @@
 	<entitygroup name="sleeperHordeStageGS216">
 		<entity name="zombieNurse" />
 		<entity name="zombieDarleneFeral" prob="0.061" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieArlene" />
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieJoe" />
@@ -1079,6 +1128,7 @@
 		<entity name="zombieBusinessMan" />
 		<entity name="zombieArlene" />
 		<entity name="zombieFemaleFat" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.079" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS291">
 		<entity name="zombieSteveFeral" prob="0.082" />
@@ -1093,12 +1143,14 @@
 		<entity name="zombieArlene" />
 		<entity name="zombieFemaleFat" />
 		<entity name="zombieArleneFeral" prob="0.082" />
+		<entity name="zombieSteveCrawler" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS301">
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieArleneFeral" prob="0.085" />
 		<entity name="zombieSpider" prob="0.085" />
 		<entity name="zombieBusinessMan" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.085" />
 		<entity name="zombieDarleneFeral" prob="0.085" />
 		<entity name="zombieYoFeral" prob="0.085" />
 		<entity name="zombieUtilityWorker" />
@@ -1137,6 +1189,7 @@
 		<entity name="zombieFemaleFat" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieFatHawaiian" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieJoe" />
 		<entity name="zombieMoe" />
 		<entity name="zombieSkateboarder" />
@@ -1176,6 +1229,7 @@
 		<entity name="zombieNurse" />
 		<entity name="zombieSpider" prob="0.102" />
 		<entity name="zombieMaleHazmat" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieArleneFeral" prob="0.102" />
 		<entity name="zombieSkateboarder" />
@@ -1203,6 +1257,7 @@
 		<entity name="zombieNurse" />
 		<entity name="zombieBusinessMan" />
 		<entity name="zombieBusinessManFeral" prob="0.108" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.108" />
 		<entity name="zombieSkateboarder" />
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
@@ -1216,8 +1271,10 @@
 		<entity name="zombieFemaleFat" />
 		<entity name="zombieDarlene" />
 		<entity name="zombieCheerleader" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.111" />
 		<entity name="zombieYoFeral" prob="0.111" />
 		<entity name="zombieNurseFeral" prob="0.111" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieSpider" prob="0.111" />
 		<entity name="zombieMarleneFeral" prob="0.111" />
 		<entity name="zombieFatCop" prob="0.264" />
@@ -1225,6 +1282,7 @@
 	<entitygroup name="sleeperHordeStageGS407">
 		<entity name="zombieCheerleader" />
 		<entity name="zombieNurseFeral" prob="0.114" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieSkateboarderFeral" prob="0.114" />
 		<entity name="zombieNurse" />
 		<entity name="zombieMaleHazmat" />
@@ -1257,6 +1315,7 @@
 		<entity name="zombieCheerleader" />
 		<entity name="zombieSteveFeral" prob="0.121" />
 		<entity name="zombieBiker" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.121" />
 		<entity name="zombieMarleneFeral" prob="0.121" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS441">
@@ -1271,6 +1330,7 @@
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.124" />
 		<entity name="zombieArleneFeral" prob="0.124" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS453">
@@ -1371,6 +1431,7 @@
 		<entity name="zombieSoldier" prob="0.605" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS536">
+		<entity name="zombieSteveCrawlerFeral" prob="0.151" />
 		<entity name="zombieYoFeral" prob="0.151" />
 		<entity name="zombieSoldier" prob="0.608" />
 		<entity name="zombieFemaleFat" />
@@ -1378,6 +1439,7 @@
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
 		<entity name="zombieDarlene" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieMarleneFeral" prob="0.151" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieFatCop" prob="0.286" />
@@ -1431,6 +1493,7 @@
 	<entitygroup name="sleeperHordeStageGS585">
 		<entity name="zombieMoe" />
 		<entity name="zombieUtilityWorker" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatHawaiianFeral" prob="0.141" />
 		<entity name="zombieMarleneFeral" prob="0.164" />
 		<entity name="zombieArlene" />
@@ -1447,6 +1510,7 @@
 		<entity name="zombieDarlene" />
 		<entity name="zombieSkateboarderFeral" prob="0.168" />
 		<entity name="zombieBusinessMan" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieJoe" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieNurseFeral" prob="0.168" />
@@ -1460,6 +1524,7 @@
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
 		<entity name="zombieSteve" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieJoe" />
 		<entity name="zombieBoe" />
 		<entity name="zombieNurse" />
@@ -1491,6 +1556,7 @@
 		<entity name="zombieBoeFeral" prob="0.179" />
 		<entity name="zombieArleneFeral" prob="0.179" />
 		<entity name="zombieFatHawaiianFeral" prob="0.153" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieBusinessMan" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS649">
@@ -1514,12 +1580,14 @@
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieFatHawaiianFeral" prob="0.159" />
 		<entity name="zombieFatCop" prob="0.306" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.186" />
 		<entity name="zombieJoeFeral" prob="0.186" />
 		<entity name="zombieMarleneFeral" prob="0.186" />
 		<entity name="zombieDarlene" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS675">
 		<entity name="zombieDarleneFeral" prob="0.189" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.189" />
 		<entity name="zombieSpiderFeral" prob="0.189" />
 		<entity name="zombieFootballPlayer" />
 		<entity name="zombieMoeFeral" prob="0.189" />
@@ -1532,6 +1600,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS688">
 		<entity name="zombieBoe" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.193" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.124" />
 		<entity name="zombieBusinessManFeral" prob="0.193" />
 		<entity name="zombieFatCop" prob="0.311" />
@@ -1583,7 +1652,9 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS742">
 		<entity name="zombieUtilityWorker" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.208" />
 		<entity name="zombieWightFeral" prob="0.253" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieYo" />
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieMarleneFeral" prob="0.208" />
@@ -1613,6 +1684,7 @@
 		<entity name="zombieYo" />
 		<entity name="zombieBoe" />
 		<entity name="zombieFatHawaiianFeral" prob="0.185" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieSteveFeral" prob="0.216" />
 		<entity name="zombieJoeFeral" prob="0.216" />
 		<entity name="zombieFemaleFat" />
@@ -1628,6 +1700,7 @@
 		<entity name="zombieDarleneFeral" prob="0.22" />
 		<entity name="zombieFatHawaiianFeral" prob="0.188" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.22" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieArleneFeral" prob="0.22" />
 		<entity name="zombieArlene" />
 	</entitygroup>
@@ -1650,6 +1723,7 @@
 		<entity name="zombieFemaleFatFeral" prob="0.228" />
 		<entity name="zombieBoe" />
 		<entity name="zombieWightFeral" prob="0.276" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieNurseFeral" prob="0.228" />
 		<entity name="zombieFatCop" prob="0.33" />
 		<entity name="zombieJoe" />
@@ -1659,6 +1733,7 @@
 	<entitygroup name="sleeperHordeStageGS825">
 		<entity name="zombieSkateboarderFeral" prob="0.231" />
 		<entity name="zombieBusinessManFeral" prob="0.231" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.231" />
 		<entity name="zombieFootballPlayer" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.231" />
 		<entity name="ZombieRavager" />
@@ -1688,6 +1763,7 @@
 		<entity name="zombieBusinessManFeral" prob="0.239" />
 		<entity name="zombieNurseFeral" prob="0.239" />
 		<entity name="zombieJoeFeral" prob="0.239" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieArlene" />
 		<entity name="zombieBiker" />
 		<entity name="zombieJoe" />
@@ -1702,6 +1778,7 @@
 		<entity name="zombieWightFeral" prob="0.296" />
 		<entity name="zombieFatCop" prob="0.339" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.244" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.244" />
 		<entity name="zombieBoeFeral" prob="0.244" />
 		<entity name="zombieYo" />
 		<entity name="zombieDarlene" />
@@ -1717,12 +1794,14 @@
 		<entity name="zombieBoeFeral" prob="0.247" />
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieFootballPlayer" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieYo" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS896">
 		<entity name="zombieSpiderFeralRadiated" prob="0.251" />
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieWightFeralRadiated" prob="0.251" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieBiker" />
 		<entity name="zombieDarleneFeral" prob="0.251" />
 		<entity name="zombieBusinessMan" />
@@ -1740,6 +1819,7 @@
 		<entity name="zombieSpiderFeralRadiated" prob="0.256" />
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieBusinessManFeral" prob="0.256" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieBoe" />
 		<entity name="zombieSkateboarderFeral" prob="0.256" />
 	</entitygroup>
@@ -1765,6 +1845,7 @@
 		<entity name="zombieSkateboarderFeral" prob="0.264" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieNurseFeral" prob="0.264" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieBoeFeral" prob="0.264" />
 		<entity name="zombieSteve" />
 	</entitygroup>
@@ -1778,6 +1859,7 @@
 		<entity name="zombieFatHawaiianFeral" prob="0.23" />
 		<entity name="zombieArleneFeral" prob="0.268" />
 		<entity name="zombieBusinessMan" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieSteveFeral" prob="0.268" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS970">
@@ -1786,6 +1868,7 @@
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
 		<entity name="zombieSkateboarder" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieMoe" />
 		<entity name="zombieSteveFeral" prob="0.272" />
 		<entity name="zombieSpiderFeral" prob="0.272" />
@@ -1826,6 +1909,7 @@
 		<entity name="zombieNurseFeral" prob="0.285" />
 		<entity name="zombieBusinessManFeral" prob="0.285" />
 		<entity name="zombieSteveFeral" prob="0.285" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.285" />
 		<entity name="zombieYoFeral" prob="0.285" />
 		<entity name="zombieYo" />
 		<entity name="zombieBusinessMan" />
@@ -1852,6 +1936,7 @@
 		<entity name="zombieBoe" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.189" />
 		<entity name="zombieSteveFeral" prob="0.293" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.293" />
 		<entity name="zombieBusinessMan" />
@@ -2012,6 +2097,7 @@
 		<entity name="zombieSoldier" prob="0.747" />
 		<entity name="zombieNurseFeral" prob="0.346" />
 		<entity name="zombieFatHawaiian" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.346" />
 		<entity name="zombieDarleneFeral" prob="0.346" />
 		<entity name="zombieSpider" prob="0.346" />
 		<entity name="zombieMoeFeral" prob="0.346" />
@@ -2019,6 +2105,7 @@
 	<entitygroup name="sleeperHordeStageGS1249">
 		<entity name="zombieMoe" />
 		<entity name="zombieFatCopFeral" prob="0.225" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieMoeFeral" prob="0.35" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.225" />
 		<entity name="zombieDarlene" />
@@ -2038,11 +2125,13 @@
 		<entity name="zombieWightFeralRadiated" prob="0.355" />
 		<entity name="zombieFatHawaiianFeral" prob="0.304" />
 		<entity name="zombieBoeFeral" prob="0.355" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.355" />
 		<entity name="zombieFootballPlayer" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS1281">
 		<entity name="zombieArlene" />
 		<entity name="zombieSoldier" prob="0.757" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.359" />
 		<entity name="zombieUtilityWorker" />
 		<entity name="zombieSpider" prob="0.359" />
 		<entity name="zombieDarleneFeral" prob="0.359" />
@@ -2081,6 +2170,7 @@
 		<entity name="zombieSpiderFeral" prob="0.368" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS1331">
+		<entity name="zombieSteveCrawlerFeral" prob="0.373" />
 		<entity name="zombieFootballPlayer" />
 		<entity name="zombieWightFeral" prob="0.453" />
 		<entity name="zombieSteveFeral" prob="0.373" />
@@ -2102,6 +2192,7 @@
 		<entity name="zombieMoe" />
 		<entity name="zombieSteve" />
 		<entity name="zombieFatCopFeral" prob="0.243" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.378" />
 		<entity name="zombieBusinessManFeral" prob="0.378" />
 		<entity name="zombieBiker" />
 		<entity name="zombieYoFeral" prob="0.378" />
@@ -2120,6 +2211,7 @@
 		<entity name="zombieSpider" prob="0.382" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS1380">
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieSpiderFeral" prob="0.387" />
 		<entity name="zombieUtilityWorker" />
 		<entity name="zombieBoeFeral" prob="0.387" />
@@ -2147,11 +2239,13 @@
 	<entitygroup name="sleeperHordeStageGS1414">
 		<entity name="zombieJoe" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.396" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.396" />
 		<entity name="zombieNurseFeral" prob="0.396" />
 		<entity name="zombieMoeFeral" prob="0.396" />
 		<entity name="zombieBiker" />
 		<entity name="zombieDarlene" />
 		<entity name="zombieBoe" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieWightFeralRadiated" prob="0.396" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.255" />
 	</entitygroup>
@@ -2172,11 +2266,13 @@
 		<entity name="zombieBiker" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.261" />
 		<entity name="zombieFatHawaiianFeral" prob="0.348" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.406" />
 		<entity name="zombieDarlene" />
 		<entity name="zombieYoFeral" prob="0.406" />
 		<entity name="zombieNurseFeral" prob="0.406" />
 		<entity name="zombieSkateboarderFeral" prob="0.406" />
 		<entity name="zombieBusinessMan" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieYo" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS1465">
@@ -2216,6 +2312,7 @@
 		<entity name="zombieFatHawaiianFeral" prob="0.36" />
 		<entity name="zombieBusinessManFeral" prob="0.42" />
 		<entity name="zombieMaleHazmat" />
+		<entity name="zombieSteveCrawler" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS1516">
 		<entity name="zombieYoFeral" prob="0.425" />
@@ -2261,6 +2358,7 @@
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.44" />
 		<entity name="zombieSkateboarderFeral" prob="0.44" />
 		<entity name="zombieDarleneFeral" prob="0.44" />
 		<entity name="zombieArlene" />
@@ -2272,6 +2370,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS1586">
 		<entity name="zombieUtilityWorker" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.445" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.286" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieNurseFeral" prob="0.445" />
@@ -2287,6 +2386,7 @@
 		<entity name="zombieDarleneFeral" prob="0.449" />
 		<entity name="zombieMoeFeral" prob="0.449" />
 		<entity name="zombieMarleneFeral" prob="0.449" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieMoe" />
 		<entity name="zombieSteveFeral" prob="0.449" />
 		<entity name="zombieUtilityWorker" />
@@ -2314,6 +2414,7 @@
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieSpiderFeral" prob="0.459" />
 		<entity name="zombieMoeFeral" prob="0.459" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieWightFeral" prob="0.557" />
 		<entity name="zombieArlene" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.459" />
@@ -2369,6 +2470,7 @@
 		<entity name="zombieSpiderFeralRadiated" prob="0.479" />
 		<entity name="zombieMarleneFeral" prob="0.479" />
 		<entity name="zombieBiker" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieSteveFeral" prob="0.479" />
 		<entity name="zombieArlene" />
 	</entitygroup>
@@ -2412,6 +2514,7 @@
 		<entity name="zombieBoeFeral" prob="0.494" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS1782">
+		<entity name="zombieSteveCrawlerFeral" prob="0.499" />
 		<entity name="zombieSteve" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.428" />
 		<entity name="zombieDarleneFeral" prob="0.499" />
@@ -2420,11 +2523,13 @@
 		<entity name="zombieSpiderFeral" prob="0.499" />
 		<entity name="zombieMoe" />
 		<entity name="zombieBiker" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieSpider" prob="0.499" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS1800">
 		<entity name="zombieUtilityWorker" />
 		<entity name="zombieCheerleader" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.504" />
 		<entity name="zombieArleneFeral" prob="0.504" />
 		<entity name="zombieSpider" prob="0.504" />
 		<entity name="zombieSkateboarderFeral" prob="0.504" />
@@ -2436,6 +2541,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS1818">
 		<entity name="zombieDarleneFeral" prob="0.51" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.51" />
 		<entity name="zombieBiker" />
 		<entity name="zombieYo" />
 		<entity name="zombieMaleHazmat" />
@@ -2449,6 +2555,7 @@
 		<entity name="zombieMarlene" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS1837">
+		<entity name="zombieSteveCrawlerFeral" prob="0.515" />
 		<entity name="zombieSpiderFeral" prob="0.515" />
 		<entity name="zombieWightFeral" prob="0.625" />
 		<entity name="zombieBoeFeral" prob="0.515" />
@@ -2481,6 +2588,7 @@
 		<entity name="zombieMoeFeral" prob="0.525" />
 		<entity name="zombieBiker" />
 		<entity name="zombieJoeFeral" prob="0.525" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.525" />
 		<entity name="zombieBusinessManFeral" prob="0.525" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.45" />
 		<entity name="zombieBoeFeral" prob="0.525" />
@@ -2536,6 +2644,7 @@
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieJoe" />
 		<entity name="zombieJoeFeral" prob="0.546" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieUtilityWorker" />
 		<entity name="zombieDarlene" />
 		<entity name="zombieFatCop" prob="0.512" />
@@ -2548,6 +2657,7 @@
 		<entity name="zombieNurse" />
 		<entity name="zombieYoFeral" prob="0.551" />
 		<entity name="zombieMoe" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.551" />
 		<entity name="zombieMarleneFeral" prob="0.551" />
 		<entity name="zombieFemaleFat" />
 		<entity name="zombieBoeFeral" prob="0.551" />
@@ -2598,6 +2708,7 @@
 		<entity name="zombieSteveFeral" prob="0.572" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.572" />
 		<entity name="zombieMoe" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.572" />
 		<entity name="zombieMarleneFeral" prob="0.572" />
 		<entity name="zombieWightFeralRadiated" prob="0.572" />
 		<entity name="zombieYoFeral" prob="0.572" />
@@ -2621,6 +2732,7 @@
 		<entity name="zombieFatCopFeral" prob="0.371" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS2081">
+		<entity name="zombieSteveCrawlerFeral" prob="0.583" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.375" />
 		<entity name="zombieWightFeralRadiated" prob="0.583" />
 		<entity name="zombieMoeFeral" prob="0.583" />
@@ -2683,6 +2795,7 @@
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.605" />
 		<entity name="zombieJoeFeral" prob="0.605" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS2177">
@@ -2723,6 +2836,7 @@
 		<entity name="zombieMoe" />
 		<entity name="zombieArleneFeral" prob="0.621" />
 		<entity name="zombieBiker" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.621" />
 		<entity name="zombieSkateboarderFeral" prob="0.621" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS2236">
@@ -2745,6 +2859,7 @@
 		<entity name="zombieBoeFeral" prob="0.632" />
 		<entity name="zombieWightFeralRadiated" prob="0.632" />
 		<entity name="zombieBiker" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.632" />
 		<entity name="zombieBusinessManFeral" prob="0.632" />
 		<entity name="zombieMoe" />
 		<entity name="zombieFootballPlayer" />
@@ -2764,6 +2879,7 @@
 		<entity name="zombieSpider" prob="0.637" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS2295">
+		<entity name="zombieSteveCrawlerFeral" prob="0.643" />
 		<entity name="zombieFootballPlayer" />
 		<entity name="zombieDarleneFeral" prob="0.643" />
 		<entity name="zombieMoeFeral" prob="0.643" />
@@ -2784,6 +2900,7 @@
 		<entity name="zombieFatHawaiianFeral" prob="0.556" />
 		<entity name="zombieBiker" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.417" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.649" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieDarlene" />
 	</entitygroup>
@@ -2791,6 +2908,7 @@
 		<entity name="zombieSpiderFeral" prob="0.654" />
 		<entity name="zombieMarleneFeral" prob="0.654" />
 		<entity name="zombieWightFeralRadiated" prob="0.654" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieWightFeral" prob="0.794" />
 		<entity name="zombieUtilityWorker" />
 		<entity name="zombieFemaleFatFeral" prob="0.654" />
@@ -2804,6 +2922,7 @@
 		<entity name="zombieFatHawaiianFeral" prob="0.565" />
 		<entity name="zombieSpider" prob="0.66" />
 		<entity name="zombieNurse" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.66" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.424" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieBiker" />
@@ -2840,6 +2959,7 @@
 		<entity name="zombieBoeFeral" prob="0.671" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS2414">
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatCop" prob="0.587" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.435" />
 		<entity name="zombieBoeFeral" prob="0.676" />
@@ -2861,6 +2981,7 @@
 		<entity name="zombieUtilityWorker" />
 		<entity name="zombieBiker" />
 		<entity name="zombieCheerleader" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.682" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.682" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS2455">
@@ -2874,9 +2995,11 @@
 		<entity name="zombieSpiderFeral" prob="0.688" />
 		<entity name="zombieArleneFeral" prob="0.688" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.59" />
+		<entity name="zombieSteveCrawler" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS2475">
 		<entity name="zombieFemaleFatFeral" prob="0.693" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.693" />
 		<entity name="zombieBoeFeral" prob="0.693" />
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieYoFeral" prob="0.693" />
@@ -2896,6 +3019,7 @@
 		<entity name="zombieFatCop" prob="0.6" />
 		<entity name="zombieFatCopFeral" prob="0.45" />
 		<entity name="zombieSteveFeral" prob="0.699" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.699" />
 		<entity name="zombieNurseFeral" prob="0.699" />
 		<entity name="zombieDarlene" />
 	</entitygroup>
@@ -2944,8 +3068,10 @@
 		<entity name="zombieFatHawaiianFeral" prob="0.619" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.464" />
 		<entity name="zombieFatCop" prob="0.613" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.722" />
 		<entity name="zombieBusinessManFeral" prob="0.722" />
 		<entity name="zombieBiker" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFemaleFat" />
 		<entity name="zombieDarleneFeral" prob="0.722" />
 	</entitygroup>
@@ -3008,7 +3134,9 @@
 		<entity name="zombieMoe" />
 		<entity name="zombieWightFeralRadiated" prob="0.751" />
 		<entity name="zombieFootballPlayer" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieSpiderFeral" prob="0.751" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.751" />
 		<entity name="zombieYo" />
 		<entity name="zombieFatHawaiianFeral" prob="0.644" />
 	</entitygroup>
@@ -3017,11 +3145,13 @@
 		<entity name="zombieMoeFeral" prob="0.757" />
 		<entity name="zombieBusinessManFeral" prob="0.757" />
 		<entity name="zombieYoFeral" prob="0.757" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieWightFeralRadiated" prob="0.757" />
 		<entity name="zombieDarleneFeral" prob="0.757" />
 		<entity name="zombieNurseFeral" prob="0.757" />
 		<entity name="zombieSpiderFeral" prob="0.757" />
 		<entity name="zombieFatCop" prob="0.633" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.757" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS2723">
 		<entity name="zombieUtilityWorker" />
@@ -3077,6 +3207,7 @@
 		<entity name="zombieYoFeral" prob="0.781" />
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieBusinessManFeral" prob="0.781" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.781" />
 		<entity name="zombieWightFeralRadiated" prob="0.781" />
 		<entity name="zombieNurseFeral" prob="0.781" />
 	</entitygroup>
@@ -3096,6 +3227,7 @@
 	<entitygroup name="sleeperHordeStageGS2828">
 		<entity name="zombieFatHawaiianFeral" prob="0.679" />
 		<entity name="zombieFootballPlayer" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.792" />
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieSteveFeral" prob="0.792" />
 		<entity name="zombieSpiderFeral" prob="0.792" />
@@ -3159,6 +3291,7 @@
 		<entity name="zombieDarlene" />
 		<entity name="zombieFatHawaiianFeral" prob="0.7" />
 		<entity name="zombieMoe" />
+		<entity name="zombieSteveCrawler" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS2935">
 		<entity name="zombieCheerleader" />
@@ -3288,6 +3421,7 @@
 		<entity name="zombieArleneFeral" prob="0.877" />
 		<entity name="zombieMoe" />
 		<entity name="zombieDarlene" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.877" />
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
@@ -3299,6 +3433,7 @@
 		<entity name="zombieMoe" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.883" />
 		<entity name="zombieMarleneFeral" prob="0.883" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieBoeFeral" prob="0.883" />
 		<entity name="zombieSkateboarderFeral" prob="0.883" />
 		<entity name="zombieYoFeral" prob="0.883" />
@@ -3314,6 +3449,7 @@
 		<entity name="zombieWightFeralRadiated" prob="0.889" />
 		<entity name="zombieUtilityWorker" />
 		<entity name="zombieFatHawaiianFeral" prob="0.762" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieDarlene" />
 		<entity name="zombieArlene" />
 	</entitygroup>
@@ -3362,6 +3498,7 @@
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.914" />
 		<entity name="zombieMoe" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.914" />
 		<entity name="zombieJoeFeral" prob="0.914" />
 		<entity name="zombieSpiderFeral" prob="0.914" />
 		<entity name="zombieFatCop" prob="0.723" />
@@ -3388,6 +3525,7 @@
 	<entitygroup name="sleeperHordeStageGS3307">
 		<entity name="zombieBusinessManFeral" prob="0.926" />
 		<entity name="zombieYoFeral" prob="0.926" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.926" />
 		<entity name="zombieUtilityWorker" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieSpider" prob="0.926" />
@@ -3411,6 +3549,7 @@
 		<entity name="zombieSteve" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS3352">
+		<entity name="zombieSteveCrawlerFeral" prob="0.939" />
 		<entity name="zombieDarleneFeral" prob="0.939" />
 		<entity name="zombieBiker" />
 		<entity name="zombieNurse" />
@@ -3469,6 +3608,7 @@
 		<entity name="zombieFatHawaiianFeral" prob="0.827" />
 		<entity name="zombieMoe" />
 		<entity name="zombieSpiderFeral" prob="0.964" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieYoFeral" prob="0.964" />
 		<entity name="zombieBoeFeral" prob="0.964" />
 		<entity name="zombieArleneFeral" prob="0.964" />
@@ -3492,6 +3632,7 @@
 		<entity name="zombieUtilityWorker" />
 		<entity name="zombieWightFeral" prob="1.186" />
 		<entity name="zombieYoFeral" prob="0.977" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.977" />
 		<entity name="zombieDarleneFeral" prob="0.977" />
 		<entity name="zombieFatCop" prob="0.759" />
 		<entity name="zombieFatCopFeralRadiated" prob="0.628" />
@@ -3508,9 +3649,11 @@
 		<entity name="zombieSpiderFeralRadiated" prob="0.843" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.983" />
 		<entity name="zombieSkateboarder" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieArleneFeral" prob="0.983" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS3533">
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieWightFeral" prob="1.202" />
 		<entity name="zombieJoe" />
 		<entity name="zombieYo" />
@@ -3524,6 +3667,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS3556">
 		<entity name="zombieUtilityWorker" />
+		<entity name="zombieSteveCrawlerFeral" prob="0.996" />
 		<entity name="zombieFootballPlayer" />
 		<entity name="zombieSteveFeral" prob="0.996" />
 		<entity name="zombieSpiderFeral" prob="0.996" />
@@ -3545,10 +3689,12 @@
 		<entity name="zombieFatCopFeral" prob="0.645" />
 		<entity name="zombieFatHawaiianFeral" prob="0.859" />
 		<entity name="zombieSpider" prob="1.003" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.003" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS3602">
 		<entity name="zombieBiker" />
 		<entity name="zombieDarlene" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieYo" />
 		<entity name="zombieSteveFeral" prob="1.009" />
 		<entity name="zombieUtilityWorker" />
@@ -3573,6 +3719,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS3648">
 		<entity name="zombieSpiderFeral" prob="1.022" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.022" />
 		<entity name="zombieWightFeralRadiated" prob="1.022" />
 		<entity name="zombieJoeFeral" prob="1.022" />
 		<entity name="ZombieRavager" />
@@ -3587,6 +3734,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS3671">
 		<entity name="zombieMoe" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFootballPlayer" />
 		<entity name="zombieFatCop" prob="0.788" />
 		<entity name="zombieMoeFeral" prob="1.028" />
@@ -3600,6 +3748,7 @@
 		<entity name="zombieBiker" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS3694">
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.887" />
 		<entity name="zombieFatCop" prob="0.792" />
 		<entity name="zombieFootballPlayer" />
@@ -3668,6 +3817,7 @@
 	<entitygroup name="sleeperHordeStageGS3811">
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieMoeFeral" prob="1.068" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.068" />
 		<entity name="zombieNurse" />
 		<entity name="zombieArlene" />
 		<entity name="zombieSpiderFeralRadiated" prob="0.915" />
@@ -3707,6 +3857,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS3881">
 		<entity name="zombieFootballPlayer" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.087" />
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
@@ -3750,6 +3901,7 @@
 		<entity name="zombieMoeFeral" prob="1.107" />
 		<entity name="zombieMarleneFeral" prob="1.107" />
 		<entity name="zombieFootballPlayer" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.107" />
 		<entity name="zombieMoe" />
 		<entity name="zombieBiker" />
 		<entity name="zombieSpider" prob="1.107" />
@@ -3767,12 +3919,14 @@
 		<entity name="zombieWightFeralRadiated" prob="1.114" />
 		<entity name="zombieDarlene" />
 		<entity name="zombieSpiderFeral" prob="1.114" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.114" />
 		<entity name="zombieFemaleFat" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS4000">
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieDarleneFeral" prob="1.12" />
 		<entity name="zombieYoFeral" prob="1.12" />
 		<entity name="zombieBiker" />
@@ -3790,6 +3944,7 @@
 		<entity name="zombieSpider" prob="1.127" />
 		<entity name="zombieNurseFeral" prob="1.127" />
 		<entity name="zombieMoeFeral" prob="1.127" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.127" />
 		<entity name="ZombieRavager" />
 		<entity name="ZombieTrucker" />
 		<entity name="zombieMarlene" />
@@ -3854,6 +4009,7 @@
 	<entitygroup name="sleeperHordeStageGS4144">
 		<entity name="zombieBusinessManFeral" prob="1.161" />
 		<entity name="zombieJoeFeral" prob="1.161" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.161" />
 		<entity name="zombieDarlene" />
 		<entity name="zombieFemaleFat" />
 		<entity name="zombieBoeFeral" prob="1.161" />
@@ -3861,6 +4017,7 @@
 		<entity name="zombieUtilityWorker" />
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieYoFeral" prob="1.161" />
+		<entity name="zombieSteveCrawler" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS4168">
 		<entity name="ZombieRavager" />
@@ -3912,6 +4069,7 @@
 		<entity name="zombieSpiderFeral" prob="1.188" />
 		<entity name="zombieBusinessMan" />
 		<entity name="zombieSteveFeral" prob="1.188" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFootballPlayer" />
 		<entity name="zombieMoe" />
 		<entity name="zombieBusinessManFeral" prob="1.188" />
@@ -3947,6 +4105,7 @@
 		<entity name="zombieBiker" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieBusinessManFeral" prob="1.208" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.208" />
 		<entity name="zombieFatHawaiianFeral" prob="1.036" />
 		<entity name="zombieCheerleader" />
 		<entity name="zombieSteveFeral" prob="1.208" />
@@ -3959,6 +4118,7 @@
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieBoe" />
 		<entity name="zombieBusinessManFeral" prob="1.215" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.215" />
 		<entity name="zombieMarleneFeral" prob="1.215" />
 		<entity name="zombieBiker" />
 		<entity name="zombieFatCopFeral" prob="0.781" />
@@ -4072,6 +4232,7 @@
 		<entity name="zombieMarlene" />
 		<entity name="zombieNurseFeral" prob="1.27" />
 		<entity name="zombieFatHawaiian" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieSteve" />
 		<entity name="zombieMoeFeral" prob="1.27" />
 		<entity name="zombieMoe" />
@@ -4106,6 +4267,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS4610">
 		<entity name="zombieDarlene" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.291" />
 		<entity name="zombieArleneFeral" prob="1.291" />
 		<entity name="zombieFatHawaiianFeral" prob="1.107" />
 		<entity name="zombieCheerleader" />
@@ -4117,6 +4279,7 @@
 		<entity name="zombieUtilityWorker" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS4635">
+		<entity name="zombieSteveCrawlerFeral" prob="1.298" />
 		<entity name="zombieBiker" />
 		<entity name="zombieSpider" prob="1.298" />
 		<entity name="zombieBoeFeral" prob="1.298" />
@@ -4133,6 +4296,7 @@
 		<entity name="zombieMoeFeral" prob="1.305" />
 		<entity name="zombieSkateboarderFeral" prob="1.305" />
 		<entity name="zombieYo" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieMoe" />
 		<entity name="zombieArlene" />
 		<entity name="zombieFatCop" prob="0.946" />
@@ -4142,6 +4306,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS4685">
 		<entity name="zombieBiker" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.312" />
 		<entity name="zombieDarleneFeral" prob="1.312" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieFatCop" prob="0.95" />
@@ -4150,6 +4315,7 @@
 		<entity name="zombieNurse" />
 		<entity name="zombieSpiderFeral" prob="1.312" />
 		<entity name="zombieBoe" />
+		<entity name="zombieSteveCrawler" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS4710">
 		<entity name="zombieFatHawaiianFeral" prob="1.131" />
@@ -4255,6 +4421,7 @@
 		<entity name="zombieMoeFeral" prob="1.369" />
 		<entity name="zombieFatHawaiianFeral" prob="1.173" />
 		<entity name="zombieSpiderFeralRadiated" prob="1.369" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.369" />
 		<entity name="zombieFootballPlayer" />
 		<entity name="zombieSteve" />
 	</entitygroup>
@@ -4287,6 +4454,7 @@
 	<entitygroup name="sleeperHordeStageGS4964">
 		<entity name="zombieMoe" />
 		<entity name="zombieFootballPlayer" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.39" />
 		<entity name="zombieUtilityWorker" />
 		<entity name="zombieJoeFeral" prob="1.39" />
 		<entity name="zombieDarleneFeral" prob="1.39" />
@@ -4318,6 +4486,7 @@
 		<entity name="zombieMarleneFeral" prob="1.405" />
 		<entity name="zombieNurse" />
 		<entity name="zombieBusinessManFeral" prob="1.405" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieDarleneFeral" prob="1.405" />
 		<entity name="zombieWightFeralRadiated" prob="1.405" />
 	</entitygroup>
@@ -4339,6 +4508,7 @@
 		<entity name="zombieYoFeral" prob="1.419" />
 		<entity name="zombieSteve" />
 		<entity name="zombieBusinessManFeral" prob="1.419" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.419" />
 		<entity name="zombieMoe" />
 		<entity name="zombieNurse" />
 		<entity name="zombieWightFeral" prob="1.723" />
@@ -4393,11 +4563,13 @@
 		<entity name="zombieSpiderFeral" prob="1.448" />
 		<entity name="zombieWightFeralRadiated" prob="1.448" />
 		<entity name="zombieSkateboarderFeral" prob="1.448" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.448" />
 		<entity name="zombieBusinessManFeral" prob="1.448" />
 		<entity name="zombieDarleneFeral" prob="1.448" />
 		<entity name="zombieYo" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS5196">
+		<entity name="zombieSteveCrawlerFeral" prob="1.455" />
 		<entity name="zombieSkateboarder" />
 		<entity name="zombieMoeFeral" prob="1.455" />
 		<entity name="zombieUtilityWorker" />
@@ -4411,6 +4583,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS5222">
 		<entity name="zombieFatHawaiianFeral" prob="1.254" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.463" />
 		<entity name="zombieBusinessManFeral" prob="1.463" />
 		<entity name="zombieUtilityWorker" />
 		<entity name="zombieFootballPlayer" />
@@ -4455,6 +4628,7 @@
 		<entity name="zombieWightFeralRadiated" prob="1.484" />
 		<entity name="zombieJoeFeral" prob="1.484" />
 		<entity name="zombieCheerleader" />
+		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFootballPlayer" />
 		<entity name="zombieFatHawaiianFeral" prob="1.272" />
 		<entity name="zombieArlene" />
@@ -4517,6 +4691,7 @@
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS5431">
 		<entity name="zombieYoFeral" prob="1.521" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.521" />
 		<entity name="zombieSteveFeral" prob="1.521" />
 		<entity name="zombieMoeFeral" prob="1.521" />
 		<entity name="zombieSpider" prob="1.521" />
@@ -4633,6 +4808,7 @@
 		<entity name="zombieFootballPlayer" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieYoFeral" prob="1.581" />
+		<entity name="zombieSteveCrawler" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS5670">
 		<entity name="zombieYo" />
@@ -4642,6 +4818,7 @@
 		<entity name="zombieBiker" />
 		<entity name="zombieSpiderFeral" prob="1.588" />
 		<entity name="zombieSpiderFeralRadiated" prob="1.361" />
+		<entity name="zombieSteveCrawlerFeral" prob="1.588" />
 		<entity name="zombieSteve" />
 		<entity name="zombieWightFeral" prob="1.928" />
 		<entity name="zombieFatHawaiianFeral" prob="1.361" />
@@ -4657,6 +4834,7 @@
 		<entity name="zombieArlene" />
 		<entity name="zombieBoeFeral" prob="1.596" />
 		<entity name="zombieMarleneFeral" prob="1.596" />
+		<entity name="zombieSteveCrawler" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS5724">
 		<entity name="ZombieRavager" />
@@ -4674,6 +4852,7 @@
 		<entity name="zombieSteveFeral" prob="1.603" />
 	</entitygroup>
 	<entitygroup name="sleeperHordeStageGS5751">
+		<entity name="zombieSteveCrawlerFeral" prob="1.611" />
 		<entity name="zombieSpiderFeral" prob="1.611" />
 		<entity name="zombieBoe" />
 		<entity name="zombieMoe" />

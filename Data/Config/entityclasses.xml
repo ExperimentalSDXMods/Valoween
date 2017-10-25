@@ -637,12 +637,12 @@
 	<entity_class name="zombieBurnt" extends="zombieTemplateMale">
 		<property name="Mesh" value="Zombies/ZombieStandardBurntRagdoll" />
 		<property name="WalkType" value="7" />
-		<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam" />
-		<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert" />
-		<property name="SoundAttack" value="Enemies/Burnt_Zombie/zombieburntattack" />
-		<property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain" />
-		<property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath" />
-		<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense" />
+		<property name="SoundRandom" value="afroShamanSounds" />
+		<property name="SoundAlert" value="afroShamanSounds" />
+		<property name="SoundAttack" value="afroShamanSounds" />
+		<property name="SoundHurt" value="afroShamanSounds" />
+		<property name="SoundDeath" value="afroShamanSounds" />
+		<property name="SoundSense" value="afroShamanSounds" />
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="HandItem" value="handZombieBurning" />
 		<property name="MaxHealth" value="80" />
@@ -2116,7 +2116,46 @@
 		<property name="NightWanderSpeed" value="0.8" />
 		<property name="NightApproachSpeed" value="1.1" />
 		<property name="HasRagdoll" value="false" />
-		<property name="LootListOnDeath" value="225" />
+	</entity_class>
+	<entity_class name="Nightmare_c6" extends="animalZombieVulture">
+		<!-- For fun, let's use the zombie transmogrifier class -->
+		<property name="Class" value="EntityDragonSDX, Mods" />
+		<!-- We are using the Animal Animation, since the BipedAnimation is a bit wonky with the hit animation -->
+		<property name="AvatarController" value="AnimationSDX, Mods" />
+		<!-- With RootMotion true, the zombie just kind of chills out in one place. Set to false to watch it move. -->
+		<property name="RootMotion" value="false" />
+		<!-- Baseline Speed is way too slow, so we need to bump it up a notch or 5 -->
+		<property name="WanderSpeed" value="0.8" />
+		<property name="ApproachSpeed" value="0.8" />
+		<property name="NightWanderSpeed" value="0.8" />
+		<property name="NightApproachSpeed" value="1.1" />
+		<property name="HasRagdoll" value="false" />
+		<property name="AITask-1" value="BreakDoor" />
+		<property name="AITask-2" value="BreakBlock" />
+		<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="5" />
+		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" />
+		<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" />
+		<property name="AITask-6" value="ApproachSpot" />
+		<property name="AITask-7" value="Wander" />
+		<property name="Mesh" value="#Dragons?DragonBoss" />
+		<property name="MaxHealth" value="3000" />
+		<!-- These are the animation map names. The value comes from the animation from Unity -->
+		<property name="AnimationIdle" value="idle" />
+		<property name="AnimationMainAttack" value="attack1" />
+		<property name="AnimationSecondAttack" value="fly breath fire" />
+		<property name="AnimationPain" value="hit2" />
+		<property name="AnimationDeath" value="fly death" />
+		<property name="AnimationRun" value="fly fast" />
+		<property name="AnimationWalk" value="fly" />
+		<property name="AnimationSpecialAttack" value="fly breath fire" />
+		<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam" />
+		<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert" />
+		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack" />
+		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
+		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
+		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+		<property name="LootListOnDeath" value="224" />
+		<property name="HandItem" value="flamethrower" />
 	</entity_class>
 	<entity_class name="zombieMechanic" extends="SDXTemplate">
 		<property name="Mesh" value="#Mechanic?Model" />
@@ -2130,7 +2169,13 @@
 		<property name="AnimationDeath" value="Dead" />
 		<property name="AnimationRun" value="Run" />
 		<property name="AnimationWalk" value="Walk" />
-		<!-- property name="AnimationSpecialAttack" value="false" /-->
+		<property name="SoundRandom" value="afroShamanSounds" />
+		<property name="SoundAlert" value="afroShamanSounds" />
+		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack" />
+		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
+		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
+		<property name="SoundSense" value="afroShamanSounds" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="Nightmare_c1" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Nightmare_c1" />
@@ -2145,12 +2190,13 @@
 		<property name="AnimationRun" value="Creature_armature|Run" />
 		<property name="AnimationWalk" value="Creature_armature|walk" />
 		<property name="AnimationSpecialAttack" value="Creature_armature|bite" />
-		<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam" />
-		<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert" />
+		<property name="SoundRandom" value="afroShamanSounds" />
+		<property name="SoundAlert" value="afroShamanSounds" />
 		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack" />
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
-		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+		<property name="SoundSense" value="afroShamanSounds" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="Nightmare_c2" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?thc2" />
@@ -2165,12 +2211,13 @@
 		<property name="AnimationRun" value="NC2_Armat|thc2_run" />
 		<property name="AnimationWalk" value="NC2_Armat|thc2_walk" />
 		<property name="AnimationSpecialAttack" value="NC_Arma|thc2_attack3" />
-		<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam" />
-		<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert" />
+		<property name="SoundRandom" value="afroShamanSounds" />
+		<property name="SoundAlert" value="afroShamanSounds" />
 		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack" />
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
-		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+		<property name="SoundSense" value="afroShamanSounds" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="Nightmare_c3" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?thc3" />
@@ -2184,12 +2231,13 @@
 		<property name="AnimationRun" value="thc3_arma|run_forward" />
 		<property name="AnimationWalk" value="thc3_arma|walk_forward" />
 		<property name="AnimationSpecialAttack" value="thc3_arma|attack3" />
-		<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam" />
-		<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert" />
+		<property name="SoundRandom" value="afroShamanSounds" />
+		<property name="SoundAlert" value="afroShamanSounds" />
 		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack" />
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
-		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+		<property name="SoundSense" value="afroShamanSounds" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="Nightmare_c4" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?thc4" />
@@ -2204,12 +2252,13 @@
 		<property name="AnimationRun" value="thc4_arma|st_run" />
 		<property name="AnimationWalk" value="thc4_arma|st_walk" />
 		<property name="AnimationSpecialAttack" value="thc4_arma|do_attack3" />
-		<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam" />
-		<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert" />
+		<property name="SoundRandom" value="afroShamanSounds" />
+		<property name="SoundAlert" value="afroShamanSounds" />
 		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack" />
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
-		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+		<property name="SoundSense" value="afroShamanSounds" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="Nightmare_c5" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?thc5" />
@@ -2223,12 +2272,13 @@
 		<property name="AnimationRun" value="thc5_armature_O|run" />
 		<property name="AnimationWalk" value="thc5_armature_O|walk" />
 		<property name="AnimationSpecialAttack" value="thc5_armature_O|attack3" />
-		<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam" />
-		<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert" />
+		<property name="SoundRandom" value="afroShamanSounds" />
+		<property name="SoundAlert" value="afroShamanSounds" />
 		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack" />
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
-		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+		<property name="SoundSense" value="afroShamanSounds" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="Mutant" extends="SDXTemplate">
 		<property name="Mesh" value="#Mutant?Model" />
@@ -2241,6 +2291,13 @@
 		<property name="AnimationRun" value="run" />
 		<property name="AnimationWalk" value="walk" />
 		<!-- property name="AnimationSpecialAttack" value="false" /-->
+		<property name="SoundRandom" value="afroShamanSounds" />
+		<property name="SoundAlert" value="afroShamanSounds" />
+		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack" />
+		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
+		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
+		<property name="SoundSense" value="afroShamanSounds" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="Beast" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Beast" />
@@ -2261,6 +2318,7 @@
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="Insectoid" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Insectoid" />
@@ -2278,6 +2336,7 @@
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="Ripper" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Ripper" />
@@ -2298,6 +2357,7 @@
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="Vendigo" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?Vendigo" />
@@ -2318,6 +2378,7 @@
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="ZombieMutant" extends="SDXTemplate">
 		<property name="Mesh" value="#Nightmares?ZombieMutant" />
@@ -2335,6 +2396,7 @@
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+		<property name="LootListOnDeath" value="225" />
 	</entity_class>
 	<entity_class name="Dino" extends="SDXTemplate">
 		<property name="Mesh" value="#Dinosaurs?Raptor" />
@@ -2354,5 +2416,56 @@
 		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath" />
 		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain" />
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense" />
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="6" />
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="9" />
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4" />
+		<drop event="Harvest" name="femur" tool_category="Butcher" count="2" />
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3" />
+		<drop event="Harvest" name="rawMeat" tool_category="ButcherBonus" count="2" />
+	</entity_class>
+	<entity_class name="Shaman" extends="SDXTemplate">
+		<!--property name="Class" value="EntityShaman, Mods" /-->
+		<!-- We are using the Animal Animation, since the BipedAnimation is a bit wonky with the hit animation -->
+		<property name="AvatarController" value="AnimationSDX, Mods" />
+		<!-- With RootMotion true, the zombie just kind of chills out in one place. Set to false to watch it move. -->
+		<property name="RootMotion" value="false" />
+		<!-- Baseline Speed is way too slow, so we need to bump it up a notch or 5 -->
+		<property name="WanderSpeed" value="0.8" />
+		<property name="ApproachSpeed" value="0.8" />
+		<property name="NightWanderSpeed" value="0.8" />
+		<property name="NightApproachSpeed" value="1.1" />
+		<property name="HasRagdoll" value="false" />
+		<property name="AITask-1" value="Wander" />
+		<property name="Mesh" value="#AfroShaman?AfroShaman01" />
+		<property name="CorpseBlockChance" value="0" />
+		<property name="TimeStayAfterDeath" value="1" />
+		<!-- These are the animation map names. The value comes from the animation from Unity -->
+		<property name="AnimationIdle" value="IDLE HURT" />
+		<property name="AnimationMainAttack" value="LAUGH" />
+		<property name="AnimationPain" value="LAUGH" />
+		<property name="AnimationDeath" value="LAUGH" />
+		<property name="AnimationRun" value="RUN" />
+		<property name="AnimationWalk" value="WALK HURT" />
+		<property name="SoundRandom" value="afroShamanSounds" />
+		<property name="SoundAlert" value="afroShamanSounds" />
+		<property name="SoundAttack" value="afroShamanSounds" />
+		<property name="SoundDeath" value="afroShamanSounds" />
+		<property name="SoundHurt" value="afroShamanSounds" />
+		<property name="SoundSense" value="afroShamanSounds" />
+		<property name="MaxHealth" value="1" />
+	</entity_class>
+	
+	<entity_class name="ShamanBoss" extends="Shaman">
+		<property name="AnimationIdle" value="IDLE ATTACK" />
+		<property name="AnimationMainAttack" value="CAST + SPELL MAGIC" />
+		<property name="AnimationPain" value="LAUGH" />
+		<property name="AnimationDeath" value="DIE" />
+		<property name="AnimationRun" value="RUN" />
+		<property name="AnimationWalk" value="WALK" />
+		<property name="SoundSense" value="afroShamanSounds" />
+		<property name="MaxHealth" value="5000" />
+		<property name="HandItem" value="BossHand" />
+				<property name="LootListOnDeath" value="224" />
+
 	</entity_class>
 </entity_classes>
