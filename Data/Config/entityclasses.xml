@@ -2116,6 +2116,13 @@
 		<property name="NightWanderSpeed" value="0.8" />
 		<property name="NightApproachSpeed" value="1.1" />
 		<property name="HasRagdoll" value="false" />
+	<property name="SightRange" value="60"/> <!-- distance in m -->
+    <property name="SightScale" value="-25,125"/> <!-- how well lit you have to be for the zombie to see you at min,max range -->	
+		<property name="SleeperWakeupSightDetectionMin" value="-40,5"/> <!-- Indiv.Random. sight capability - "I see you" light value at point blank -->
+    <property name="SleeperWakeupSightDetectionMax" value="340,480"/> <!-- Indiv.Random. "I see you" light value at "SightRange" -->
+    <property name="SleeperSenseSightDetectionMin" value="-10,0"/> <!-- same for groaning, not waking -->
+    <property name="SleeperSenseSightDetectionMax" value="200,300"/>
+		
 	</entity_class>
 	<entity_class name="Nightmare_c6" extends="animalZombieVulture">
 		<!-- For fun, let's use the zombie transmogrifier class -->
