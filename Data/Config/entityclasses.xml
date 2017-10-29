@@ -2124,7 +2124,7 @@
                 <property name="SleeperSenseSightDetectionMax" value="200,300"/>
 		<property name="MaxViewAngle" value="300"/>
                 <property name="MaxTurnSpeed" value="145"/>
-		<property name="NoiseAlertThreshold" value="40" />
+		<property name="NoiseAlertThreshold" value="20" />
 
 	</entity_class>
 	<entity_class name="Nightmare_c6" extends="animalZombieVulture">
