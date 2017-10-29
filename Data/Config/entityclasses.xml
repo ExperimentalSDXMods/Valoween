@@ -2122,7 +2122,8 @@
     <property name="SleeperWakeupSightDetectionMax" value="340,480"/> <!-- Indiv.Random. "I see you" light value at "SightRange" -->
     <property name="SleeperSenseSightDetectionMin" value="-10,0"/> <!-- same for groaning, not waking -->
     <property name="SleeperSenseSightDetectionMax" value="200,300"/>
-		
+		<property name="MaxViewAngle" value="300"/>
+<property name="MaxTurnSpeed" value="145"/>
 	</entity_class>
 	<entity_class name="Nightmare_c6" extends="animalZombieVulture">
 		<!-- For fun, let's use the zombie transmogrifier class -->
